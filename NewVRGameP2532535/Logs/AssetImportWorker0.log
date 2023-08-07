@@ -467,3 +467,7 @@ Received Import Request.
   path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/SmallGallery/SGWeaponsRack/Materials/SGWeaponsRackMat.mat
   artifactKey: Guid(65cc008b517c6314aa85d212797df824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/SmallGallery/SGWeaponsRack/Materials/SGWeaponsRackMat.mat using Guid(65cc008b517c6314aa85d212797df824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4524e0504690567c67d9a9e72dcf06ee') in 0.029630 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

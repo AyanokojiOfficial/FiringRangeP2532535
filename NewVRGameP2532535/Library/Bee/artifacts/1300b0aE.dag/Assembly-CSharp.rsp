@@ -371,6 +371,7 @@
 "Assets/Magazine.cs"
 "Assets/Nokobot/Modern Guns - Handgun/_Demo Assets/SimpleShoot.cs"
 "Assets/SetTurnType.cs"
+"Assets/TargetMovement.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"

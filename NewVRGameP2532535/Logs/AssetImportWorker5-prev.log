@@ -1,0 +1,284 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.18f1 (0c6e675195cf) revision 814695'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/marka/Documents/GitHub/FiringRangeP2532535/NewVRGameP2532535
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+65452
+Successfully changed project path to: C:/Users/marka/Documents/GitHub/FiringRangeP2532535/NewVRGameP2532535
+C:/Users/marka/Documents/GitHub/FiringRangeP2532535/NewVRGameP2532535
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 141.91 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 1.07 ms.
+Initialize engine version: 2021.2.18f1 (0c6e675195cf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/marka/Documents/GitHub/FiringRangeP2532535/NewVRGameP2532535/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6700 XT (ID=0x73df)
+    Vendor:   ATI
+    VRAM:     12243 MB
+    Driver:   31.0.12029.10015
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012663 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 124.33 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.833 seconds
+Domain Reload Profiling:
+	ReloadAssembly (833ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (588ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (149ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (332ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (71ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (125ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008841 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\marka\Documents\GitHub\FiringRangeP2532535\NewVRGameP2532535\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\marka\Documents\GitHub\FiringRangeP2532535\NewVRGameP2532535\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 80.93 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\marka\Documents\GitHub\FiringRangeP2532535\NewVRGameP2532535\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\marka\Documents\GitHub\FiringRangeP2532535\NewVRGameP2532535\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <6073cf49ed704e958b8a66d540dea948>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <1f61d5eefcc74dff84f661b4a4dc8479>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.129 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1130ms)
+		BeginReloadAssembly (203ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (823ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (445ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.65 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 4382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (58.0 KB). Loaded Objects now: 4841.
+Memory consumption went from 162.9 MB to 162.9 MB.
+Total: 4.623300 ms (FindLiveObjects: 0.693900 ms CreateObjectMapping: 0.163300 ms MarkObjects: 3.656000 ms  DeleteObjects: 0.108600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 130074.410809 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/XR Device Simulator/XR Device Simulator Controls.inputactions
+  artifactKey: Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/XR Device Simulator/XR Device Simulator Controls.inputactions using Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37d7e6bc04db2d776260728d7568a5a') in 0.041056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/XR/Loaders/OculusLoader.asset
+  artifactKey: Guid(ddb2358957d1f0c4ab6278b46d66fccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/OculusLoader.asset using Guid(ddb2358957d1f0c4ab6278b46d66fccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c043e0be68edad18401dae543897c38d') in 0.010197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/XR/Settings/OculusSettings.asset
+  artifactKey: Guid(494c77a48d24dcd4b9b9b72f0351b9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/OculusSettings.asset using Guid(494c77a48d24dcd4b9b9b72f0351b9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd363f7c6049dcb01e89fcbff851936e') in 0.009265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 159.773979 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15645d1307a5bb9b806bbb7495d150d2') in 0.148179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.861033 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/BackShootingGallery/BSGShootingCabinTable/Materials/BSGShootingCabinTable_Albedo.png
+  artifactKey: Guid(1125a2b898a9786438cf27579d34cbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/BackShootingGallery/BSGShootingCabinTable/Materials/BSGShootingCabinTable_Albedo.png using Guid(1125a2b898a9786438cf27579d34cbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab48f7ed61d0afe12b9a3176d6ceb2e') in 0.114865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/ControlRoom/CRRoof/Materials/CRRoof_Albedo.png
+  artifactKey: Guid(6703983d45a04844f897d8f7df37601a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/ControlRoom/CRRoof/Materials/CRRoof_Albedo.png using Guid(6703983d45a04844f897d8f7df37601a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c756f96dd0c1ae7e1d13b0cac714d7c') in 0.060719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/ControlRoom/CRMonitorTable/Materials/CRMonitorTable_Albedo.png
+  artifactKey: Guid(63a7969c363b0d04bbc00708f00fbb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/ControlRoom/CRMonitorTable/Materials/CRMonitorTable_Albedo.png using Guid(63a7969c363b0d04bbc00708f00fbb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de9018e4241cc5fa9eb40ee080c4800') in 0.042093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_Albedo_Steel.png
+  artifactKey: Guid(7474c63c5c65b1b4fa45a47bd1bf528f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_Albedo_Steel.png using Guid(7474c63c5c65b1b4fa45a47bd1bf528f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac96fa92b264c0ceda7a33bc43426e3a') in 0.051560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/BackShootingGallery/BSGToolBoxB/Materials/BSGToolBoxB_Albedo.png
+  artifactKey: Guid(f12ae38fbb013a846abe448d14890bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/BackShootingGallery/BSGToolBoxB/Materials/BSGToolBoxB_Albedo.png using Guid(f12ae38fbb013a846abe448d14890bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8528e827e94ce8db220b83629c1ae36') in 0.034294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/SmallGallery/SGPictureA/Materials/SGPictureA_Albedo.png
+  artifactKey: Guid(1d818347a31c08f4b886f321889b719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/SmallGallery/SGPictureA/Materials/SGPictureA_Albedo.png using Guid(1d818347a31c08f4b886f321889b719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906c94f98edd2afa3d40c184ab775afb') in 0.042411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Magazine_Albedo_Black.png
+  artifactKey: Guid(c11766a3d3e2f124eb11ea77d2d2fd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Magazine_Albedo_Black.png using Guid(c11766a3d3e2f124eb11ea77d2d2fd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec54fb768c809f56fd7e9f0b9beab9e4') in 0.036103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGFloorC/Materials/SGFloorC_Albedo.png
+  artifactKey: Guid(e2bf9c113eb7d52489b8be36072cc46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGFloorC/Materials/SGFloorC_Albedo.png using Guid(e2bf9c113eb7d52489b8be36072cc46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b1cddfe459a7e12061f674fcbe48b1') in 0.071250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/ControlRoom/CRTelephone/Materials/CRTelephone_Albedo.png
+  artifactKey: Guid(f641c115da9711942bec6db07539e845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/ControlRoom/CRTelephone/Materials/CRTelephone_Albedo.png using Guid(f641c115da9711942bec6db07539e845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419905d2ed42b63b80e9f234c64d7ad3') in 0.045177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/Prefabs/BackShootingGallery/Decals/ShootingCabinNumbers/N°1_Albedo.png
+  artifactKey: Guid(f8f8f00ca179674408b3f19f3c98bf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/Prefabs/BackShootingGallery/Decals/ShootingCabinNumbers/N°1_Albedo.png using Guid(f8f8f00ca179674408b3f19f3c98bf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb15201bdd4148ce27e3773e0d95d88') in 0.028128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/BackShootingGallery/BSGToolBox/Materials/BSGToolBox_Albedo.png
+  artifactKey: Guid(2d0026fbe23695e4ea5cce7d7b1aac76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/BackShootingGallery/BSGToolBox/Materials/BSGToolBox_Albedo.png using Guid(2d0026fbe23695e4ea5cce7d7b1aac76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08091dca1d66435a3e82fa5f25a4ddf') in 0.051245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/Prefabs/BackShootingGallery/Decals/NoAuthWeapons/NoAuthWeapons_Albedo.png
+  artifactKey: Guid(4d3cc3d204d8e524dafae04e9423f587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/Prefabs/BackShootingGallery/Decals/NoAuthWeapons/NoAuthWeapons_Albedo.png using Guid(4d3cc3d204d8e524dafae04e9423f587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca684b0d5d9527f794a0f5aea46d1eb') in 0.032898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/XR Device Simulator/UI/General/OpenWindow.png
+  artifactKey: Guid(633d1ace045fe402a9b307cb58251aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/XR Device Simulator/UI/General/OpenWindow.png using Guid(633d1ace045fe402a9b307cb58251aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09cd1f9d556eb1503dfc63fde16dadf') in 0.055146 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

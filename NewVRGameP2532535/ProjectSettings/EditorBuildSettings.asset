@@ -6,9 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 029e899275800f44d960f05057393f34
+  - enabled: 1
     path: Assets/Scenes/FiringRange.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 494c77a48d24dcd4b9b9b72f0351b9ab,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 928451b127a11ed41b093a628e266e08,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: a6c05999351425e4383809130fe9dfeb,

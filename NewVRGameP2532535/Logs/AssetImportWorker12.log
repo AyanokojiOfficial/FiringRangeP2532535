@@ -1,0 +1,361 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.18f1 (0c6e675195cf) revision 814695'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker12
+-projectPath
+C:/Users/marka/Documents/GitHub/FiringRangeP2532535/NewVRGameP2532535
+-logFile
+Logs/AssetImportWorker12.log
+-srvPort
+55691
+Successfully changed project path to: C:/Users/marka/Documents/GitHub/FiringRangeP2532535/NewVRGameP2532535
+C:/Users/marka/Documents/GitHub/FiringRangeP2532535/NewVRGameP2532535
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 150.74 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.50 ms.
+Initialize engine version: 2021.2.18f1 (0c6e675195cf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/marka/Documents/GitHub/FiringRangeP2532535/NewVRGameP2532535/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6700 XT (ID=0x73df)
+    Vendor:   ATI
+    VRAM:     12243 MB
+    Driver:   31.0.12029.10015
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008774 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 161.51 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.31 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.869 seconds
+Domain Reload Profiling:
+	ReloadAssembly (869ms)
+		BeginReloadAssembly (73ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (680ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (130ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (464ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (81ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (162ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013097 seconds.
+Android Extension - Scanning For ADB Devices 672 ms
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\marka\Documents\GitHub\FiringRangeP2532535\NewVRGameP2532535\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\marka\Documents\GitHub\FiringRangeP2532535\NewVRGameP2532535\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 111.09 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Package Manager log level set to [2]
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.87.0
+Mono: successfully reloaded assembly
+- Completed reload, in  1.299 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1299ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1095ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (244ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (643ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (373ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.25 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 6073 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (32.3 KB). Loaded Objects now: 6527.
+Memory consumption went from 251.8 MB to 251.8 MB.
+Total: 3.550000 ms (FindLiveObjects: 0.533200 ms CreateObjectMapping: 0.184900 ms MarkObjects: 2.796500 ms  DeleteObjects: 0.034500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 368601.196932 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/BackShootingGallery/BSGSecurityWall/Materials/BSGSecurityWall_Albedo.png
+  artifactKey: Guid(69aaeefd0637f7744b21d3b6c561c192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/BackShootingGallery/BSGSecurityWall/Materials/BSGSecurityWall_Albedo.png using Guid(69aaeefd0637f7744b21d3b6c561c192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa519697d24f984ff1c959e90ae8d6d9') in 0.165863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/BackShootingGallery/BSGWallWhite/Materials/BSGWallWhite_Albedo.png
+  artifactKey: Guid(8a36afab0f43e75438afae4e2ae99e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/BackShootingGallery/BSGWallWhite/Materials/BSGWallWhite_Albedo.png using Guid(8a36afab0f43e75438afae4e2ae99e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474722f50d9176d21e974eb1fbe3ff00') in 0.074246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/BackShootingGallery/BSGWallWhite/Materials/BSGWallWhite_Normal.png
+  artifactKey: Guid(f897f976fc001b94b82bd5b455713294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/BackShootingGallery/BSGWallWhite/Materials/BSGWallWhite_Normal.png using Guid(f897f976fc001b94b82bd5b455713294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37d61450c820bd45d73b238290fb864') in 0.055190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGWallD/Materials/SGWallD_Metallic.png
+  artifactKey: Guid(c77c7ca35286ebd47a92d1c2ebf25443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGWallD/Materials/SGWallD_Metallic.png using Guid(c77c7ca35286ebd47a92d1c2ebf25443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5c5b993032c540ff2383b381d8ec87') in 0.036723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGWallB/Materials/SGWallB_Albedo.png
+  artifactKey: Guid(82e49cb932a1ed54b918186cfa694224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGWallB/Materials/SGWallB_Albedo.png using Guid(82e49cb932a1ed54b918186cfa694224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6a9ba7783f48689cdda9cfd48acb02') in 0.045709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/Prefabs/ShootingGallery/SGWallA_Decal (A).prefab
+  artifactKey: Guid(7b6d55766f7acdd458c9c6d51490978e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/Prefabs/ShootingGallery/SGWallA_Decal (A).prefab using Guid(7b6d55766f7acdd458c9c6d51490978e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f7b836e4e2bec842fe90b568640475') in 0.026839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGStrippedWall/Materials/SGStrippedWall_Albedo.png
+  artifactKey: Guid(acdbc6b4a16f0e5488889b5ced9ed85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGStrippedWall/Materials/SGStrippedWall_Albedo.png using Guid(acdbc6b4a16f0e5488889b5ced9ed85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8d904ed073a270dc407d78e17ec2bf') in 0.052974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGWallD/Materials/SGWallD_Normal.png
+  artifactKey: Guid(0db973a09047e8a4b9f97180802ca7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGWallD/Materials/SGWallD_Normal.png using Guid(0db973a09047e8a4b9f97180802ca7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8c5b391015a411d95db5cf60db73c6') in 0.046565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGWallA/Materials/SGWallA_Normal.png
+  artifactKey: Guid(3da8bbc722d8c9e4388dc3bf5e27c729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGWallA/Materials/SGWallA_Normal.png using Guid(3da8bbc722d8c9e4388dc3bf5e27c729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7381357cd894b2d5f336765422da6e') in 0.041163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/Prefabs/BackShootingGallery/BSGWallWhite.prefab
+  artifactKey: Guid(1caa08279f6b81a4db42d4217e406af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/Prefabs/BackShootingGallery/BSGWallWhite.prefab using Guid(1caa08279f6b81a4db42d4217e406af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff045826667f1e43b7d77592410147d') in 0.220814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/Prefabs/ShootingGallery/SGStrippedWall.prefab
+  artifactKey: Guid(9cab6bfb38f9abd46a991eeb41b35a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/Prefabs/ShootingGallery/SGStrippedWall.prefab using Guid(9cab6bfb38f9abd46a991eeb41b35a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b025a25bb67c47105757491dbb667a3') in 0.086036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGStrippedWall/Materials/SGStrippedWall_Metallic.png
+  artifactKey: Guid(afa41ffc3ed11b24c886665cc214ef7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGStrippedWall/Materials/SGStrippedWall_Metallic.png using Guid(afa41ffc3ed11b24c886665cc214ef7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ccf3f42f91b47c4c46076587042f87') in 0.043499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/BackShootingGallery/BSGWallWhite/Materials/BSGWallWhite_Metallic.png
+  artifactKey: Guid(6a92cfc98dc55bf4080b46017afc90bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/BackShootingGallery/BSGWallWhite/Materials/BSGWallWhite_Metallic.png using Guid(6a92cfc98dc55bf4080b46017afc90bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e7edc8d43296b0c497c340dc0bef2a') in 0.037818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/Prefabs/ShootingGallery/SGWallA.prefab
+  artifactKey: Guid(2fd2d851cfd96144686cb8591e502761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/Prefabs/ShootingGallery/SGWallA.prefab using Guid(2fd2d851cfd96144686cb8591e502761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5995f8b959c422f56f8df8add33efb') in 0.087107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/BackShootingGallery/BSGSecurityWall/Materials/BSGSecurityWallMat.mat
+  artifactKey: Guid(4d5f291f147595b4dbf95bede53839da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/BackShootingGallery/BSGSecurityWall/Materials/BSGSecurityWallMat.mat using Guid(4d5f291f147595b4dbf95bede53839da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd2148b8b134102ba10b447354c920f') in 0.087858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SceneManager/Prefabs/FurniturePrefabs/WallPlanePrefab.prefab
+  artifactKey: Guid(0a4918c8a9406de44ae8fd4253c3d402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SceneManager/Prefabs/FurniturePrefabs/WallPlanePrefab.prefab using Guid(0a4918c8a9406de44ae8fd4253c3d402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f975466c7715f020a7c796fc6ec26da') in 0.170882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_cinder_01_msm.png
+  artifactKey: Guid(e1aca10d2084d4a16ac922b11ff30928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_cinder_01_msm.png using Guid(e1aca10d2084d4a16ac922b11ff30928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a3dfc5b9b3ce864d90f647196734cf') in 0.063124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/Prefabs/ShootingGallery/SGWallD.prefab
+  artifactKey: Guid(576b3cce267473d49b0d0f392ac4586e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/Prefabs/ShootingGallery/SGWallD.prefab using Guid(576b3cce267473d49b0d0f392ac4586e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9327ed0acf13b043077a34001f8a0b22') in 0.097300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGStrippedWall/Materials/SGStrippedWall_Normal.png
+  artifactKey: Guid(fa7c66100e303fb42b025cd1f49fc6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGStrippedWall/Materials/SGStrippedWall_Normal.png using Guid(fa7c66100e303fb42b025cd1f49fc6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f480e1054bc2b2e694088f413ecf02a6') in 0.037314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGWallA/Materials/SGWallA_Metallic.png
+  artifactKey: Guid(36524f9712e60a24789a2245ab2c80e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGWallA/Materials/SGWallA_Metallic.png using Guid(36524f9712e60a24789a2245ab2c80e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d991b9d21a38af39301e21c90c3419') in 0.034039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/Prefabs/SmallGallery/SGWallWhite.prefab
+  artifactKey: Guid(0419845761ce41048b6c79730049c079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/Prefabs/SmallGallery/SGWallWhite.prefab using Guid(0419845761ce41048b6c79730049c079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb55ead05179598cf61d475dc130ed6') in 0.077779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_cinder_01_dif.png
+  artifactKey: Guid(f7015a3434c124bc8a51d1d13bac63bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_cinder_01_dif.png using Guid(f7015a3434c124bc8a51d1d13bac63bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a46dd92484984ef3f7ab1bcf61de91d') in 0.056233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/Prefabs/ShootingGallery/SGWallB.prefab
+  artifactKey: Guid(a0f16a6a0d2bc7d48a5243a87a2346c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/Prefabs/ShootingGallery/SGWallB.prefab using Guid(a0f16a6a0d2bc7d48a5243a87a2346c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a62cbf6581f10385e64e7ee4014ba3') in 0.097879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_brick_01_dif.png
+  artifactKey: Guid(b5d7fd3784c8d40d78ffb8d454a19944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_brick_01_dif.png using Guid(b5d7fd3784c8d40d78ffb8d454a19944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce74490e720bcb5b6246bce84a4597e') in 0.040133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGWallB/Materials/SGWallBMat.mat
+  artifactKey: Guid(c88e5518643a15947a9852651ca51e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGWallB/Materials/SGWallBMat.mat using Guid(c88e5518643a15947a9852651ca51e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6c0de21130130abc4c884e361b9a09') in 0.084393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/BackShootingGallery/BSGWallBlack/Materials/BSGWallBlack_Normal.png
+  artifactKey: Guid(31cda6c9d5577af4d92dcdc428c4862b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/BackShootingGallery/BSGWallBlack/Materials/BSGWallBlack_Normal.png using Guid(31cda6c9d5577af4d92dcdc428c4862b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329f8bdae4ba271faa9b27daa6976e24') in 0.052412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/BackShootingGallery/BSGWallBlack/Materials/BSGWallBlackMat.mat
+  artifactKey: Guid(fe7910d391f467d40a29387d08905566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/BackShootingGallery/BSGWallBlack/Materials/BSGWallBlackMat.mat using Guid(fe7910d391f467d40a29387d08905566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f41d81845c2c602db954fd9999a1490') in 0.095251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGWallA/Materials/SGWallA_Albedo.png
+  artifactKey: Guid(583075b76cbb4cc4681d603f549066bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGWallA/Materials/SGWallA_Albedo.png using Guid(583075b76cbb4cc4681d603f549066bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e876017ecd3397d5515057640bbd8117') in 0.037871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGWallB/Materials/SGWallB_Metallic.png
+  artifactKey: Guid(99b9ac69be034fc45b976887299904c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/ShootingGallery/SGWallB/Materials/SGWallB_Metallic.png using Guid(99b9ac69be034fc45b976887299904c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71af1c1ed78a28fafb1549cb9767936') in 0.054236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ShootingGallery - Enviroment Pack/OBJ Models/BackShootingGallery/BSGWallBlack/Materials/BSGWallBlack_Albedo.png
+  artifactKey: Guid(cfc22cfba608a9d47b78ce0d2fd7a24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShootingGallery - Enviroment Pack/OBJ Models/BackShootingGallery/BSGWallBlack/Materials/BSGWallBlack_Albedo.png using Guid(cfc22cfba608a9d47b78ce0d2fd7a24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5691dccb3a51ee8b07aeb50d43143a46') in 0.038425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.615184 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SceneManager/Prefabs/FurniturePrefabs/WallPrefab.prefab
+  artifactKey: Guid(d3d1448f3ff154440b5c5b19ba9235ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SceneManager/Prefabs/FurniturePrefabs/WallPrefab.prefab using Guid(d3d1448f3ff154440b5c5b19ba9235ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9040eba60956e26ebdafacb802421e8f') in 0.016216 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

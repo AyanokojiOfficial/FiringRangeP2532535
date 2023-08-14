@@ -786,10 +786,10 @@
                 {
                     "name": "",
                     "id": "7755f533-53a1-489f-86a7-1e2bea1678e0",
-                    "path": "<XRController>{LeftHand}/menuButton",
+                    "path": "<OculusTouchController>/thumbstickClicked",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Generic XR Controller",
                     "action": "Menu",
                     "isComposite": false,
                     "isPartOfComposite": false
